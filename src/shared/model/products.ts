@@ -20,6 +20,11 @@ import LT5 from "shared/assets/product_imgs/LT5.jpg";
 import LT6 from "shared/assets/product_imgs/LT6.jpg";
 import LTC1 from "shared/assets/product_imgs/LTC1.jpg";
 import LTC2 from "shared/assets/product_imgs/LTC2.jpg";
+import Lamp1 from "shared/assets/product_imgs/lamp1.jpg";
+import Lamp2 from "shared/assets/product_imgs/lamp2.jpg";
+import Lamp3 from "shared/assets/product_imgs/lamp3.jpg";
+import Lamp4 from "shared/assets/product_imgs/lamp4.jpg";
+import Lamp5 from "shared/assets/product_imgs/lamp5.jpg";
 
 export const products = [
   {
@@ -36,23 +41,23 @@ export const products = [
     kaspi_link: "https://kaspi.kz/shop/p/oley-x3-chernyi-121145980/",
   },
   {
-    id: 2,
-    title: "Ночник 3421353 (пластик, дерево)",
-    desc: "Современный ночник с плавной сменой цветов и стильным дизайном. Корпус из дерева и пластика. Управляется с помощью пульта — можно выбрать нужный цвет, режим свечения или яркость. Работает от USB, отлично подойдёт для спальни, детской или создания уюта в комнате.",
-    price: 3000,
-    previousPrice: 5100,
-    images: [Nighter1, Nighter2, Nighter3],
+    id: 8,
+    title: "Настольная лампа E14, 220 Вт, пластик",
+    desc: "Настольная лампа с уникальным, выразительным дизайном станет отличным подарком себе и своим близким. Стильный дизайн делает ее отличным аксессуаром для чтения книг или просто украшением комнаты. Вы можете разместить ее на тумбочке, туалетном столике, офисном столе или комоде – она придаст индивидуальность любому интерьеру. Она может использоваться как основное или дополнительное освещение в разных помещениях. Модель можно легко перемещать из помещения в помещение и использовать как ночник для спальни, торшер для чтения книг, взрослый ночник на балкон, а также как предмет для работы в офисе, комнаты, места, маникюрного кабинета. Красивая led лампа с регулировкой яркости является универсальным инновационным и стильным дополнением домашнего интерьера. Благодаря качественному модулю и мощным светодиодам она обеспечивает достаточную подсветку при решении любых задач.",
+    price: 8499,
+    previousPrice: 12400,
+    images: [Lamp1, Lamp2, Lamp3, Lamp4, Lamp5],
     kaspi_link:
-      "https://kaspi.kz/shop/p/nochnik-3421353-plastik-derevo-119297005/",
+      "https://kaspi.kz/shop/p/nastol-naja-lampa-5654342-e14-220-vt-plastik-119126316/",
   },
   {
     id: 3,
-    title: "Отпариватель J-2344 (белый)",
+    title: "Glavx Отпариватель J-2344 (белый)",
     desc: "Портативный отпариватель для одежды. Быстро нагревается, удаляет складки и освежает ткань. Идеален для дома, поездок или офиса. Удобная ручка, компактный размер и съёмный резервуар для воды.",
     price: 9000,
     previousPrice: 12700,
     images: [Steamer1, Steamer2, Steamer3, Steamer4],
-    kaspi_link: "https://kaspi.kz/shop/p/j-2344-belyi-119976654/",
+    kaspi_link: "https://kaspi.kz/shop/p/glavx-j-2344d-belyi-140311488/",
   },
   {
     id: 4,
@@ -63,6 +68,16 @@ export const products = [
     images: [OfficeChair1, OfficeChair2, OfficeChair3],
     kaspi_link:
       "https://kaspi.kz/shop/p/komp-juternoe-kreslo-253210925-belyi-chernyi-128031323/",
+  },
+  {
+    id: 2,
+    title: "Ночник 3421353 (пластик, дерево)",
+    desc: "Современный ночник с плавной сменой цветов и стильным дизайном. Корпус из дерева и пластика. Управляется с помощью пульта — можно выбрать нужный цвет, режим свечения или яркость. Работает от USB, отлично подойдёт для спальни, детской или создания уюта в комнате.",
+    price: 3000,
+    previousPrice: 5100,
+    images: [Nighter1, Nighter2, Nighter3],
+    kaspi_link:
+      "https://kaspi.kz/shop/p/nochnik-3421353-plastik-derevo-119297005/",
   },
   {
     id: 5,

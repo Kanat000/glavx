@@ -63,15 +63,15 @@ const OrderForm: React.FC<PropTypes> = ({ defaultValues, onSubmit }) => {
           variant="bordered"
           classNames={{ trigger: "border-1" }}
           label={"Товар"}
-          selectedKeys={product ? [product] : []}
-          onSelectionChange={(key) => setProduct(key.toString())}
+          selectedKeys={product}
+          onChange={(e) => setProduct(e.target.value)}
         >
           {products.map((product) => (
             <SelectItem key={product.id}>{product.title}</SelectItem>
           ))}
         </Select>
         <div className="flex gap-[20px] w-full justify-between items-center px-[5px]">
-          <div className="font-600 font-ttInterface">Сколько штук:</div>
+          <div className="font-600 font-ttInterface">Количество:</div>
           <div className="w-[120px]">
             <Counter
               className="scale-75"

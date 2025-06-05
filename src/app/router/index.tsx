@@ -2,9 +2,9 @@ import App from "app/App";
 import AboutPage from "pages/about";
 import MainPage from "pages/main";
 import ProductPage from "pages/product";
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 
-export const appRouter = createBrowserRouter([
+export const appRouter = createHashRouter([
   {
     element: <App />,
     children: [

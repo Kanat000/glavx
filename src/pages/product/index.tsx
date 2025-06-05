@@ -10,7 +10,7 @@ import classNames from "classnames";
 import useEmblaCarousel from "embla-carousel-react";
 import React, { useCallback, useEffect, useState } from "react";
 import { GiPriceTag } from "react-icons/gi";
-import { usePathId } from "shared/helpers/usePathId";
+import { useParams } from "react-router";
 import { products } from "shared/model/products";
 import KaspiLogo from "shared/ui/icons/KaspiLogo";
 import OrderForm from "widgets/order-form";
@@ -18,8 +18,8 @@ import OrderForm from "widgets/order-form";
 interface PropTypes {}
 
 const ProductPage: React.FC<PropTypes> = () => {
-  const productId = usePathId(location.pathname);
-  const product = products.find((product) => product.id === productId);
+  const { id: productId } = useParams();
+  const product = products.find((product) => product.id === Number(productId));
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const [emblaMainRef, emblaMainApi] = useEmblaCarousel();
